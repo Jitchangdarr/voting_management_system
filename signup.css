@@ -1,0 +1,258 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #78B3CE;
+	background-image: url('pic.avif');
+
+}
+
+h1 {
+	text-align: center;
+}
+
+.small-input {
+	width: 400px;
+	height: 30px;
+}
+
+.from {
+	text-align: center;
+
+}
+
+#exampleInputPassword1 {
+	/*	justify-content: center;*/
+	margin: auto;
+}
+
+#exampleInputEmail1 {
+	margin: auto;
+}
+
+.container {
+	background-color: #78B3CE;
+	width: 40rem;
+	height: 39rem;
+	margin: auto;
+	border-radius: 10px;
+	/*	justify-content: center;*/
+	margin-top: 1rem;
+}
+
+
+
+h1 {
+	color: black;
+}
+
+h4 {
+	text-align: center;
+
+}
+
+::placeholder {
+	text-align: center;
+	color: blue;
+}
+
+.input {
+	width: 400px;
+	height: 30px;
+}
+
+.bt {
+	text-decoration: none;
+	color: white;
+}
+
+#studentName {
+	width: 400px;
+	position: relative;
+	margin: auto;
+	height: 30px;
+	justify-content: center;
+	margin-left: auto;
+
+
+}
+
+#phone {
+	position: relative;
+	margin: auto;
+	width: 400px;
+	height: 30px;
+}
+
+#email {
+	width: 400px;
+	height: 30px;
+}
+
+.form-label {
+	text-align: center;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+
+}
+
+#course {
+	width: 25rem;
+	position: relative;
+	margin: auto;
+	margin-left: auto;
+}
+
+.text {
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin: auto;
+}
+
+/* General Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #78B3CE;
+	background-image: url('pic.avif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+}
+
+/* Container Styles */
+.container {
+	background-color: rgba(120, 179, 206, 0.9);
+	/* Slight transparency */
+	width: 40rem;
+	padding: 2rem;
+	margin: 2rem auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Labels and Inputs */
+h1 {
+	text-align: center;
+	color: black;
+	margin-bottom: 1rem;
+}
+
+.form-label {
+	display: block;
+	margin-bottom: 0.5rem;
+	color: black;
+	font-weight: bold;
+}
+
+input,
+select,
+button {
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	margin: 0.5rem auto;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+/* Placeholder Text */
+::placeholder {
+	text-align: left;
+	color: gray;
+}
+
+/* Tooltip */
+/* [data-bs-toggle="tooltip"] {
+    
+} */
+
+/* Button */
+button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+/* Link Styling */
+a {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	text-align: center;
+}
+
+/* Center Text */
+.text-center {
+	text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.container {
+		width: 90%;
+	}
+
+	input,
+	select,
+	button {
+		max-width: 100%;
+	}
+}
+
+li a {
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+.pdfUploads {
+	text-align: center;
+	margin: auto;
+}
+
+.upload-button {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 2px solid black;
+	background-color: aqua;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	height: 3rem;
+	width: 20rem;
+}
+
+.upload-button:hover {
+	background-color: #1e90ff;
+	color: white;
+}
+.upload-button:active {
+	background-color: #4682b4;
+	
+	color: white;
+}
